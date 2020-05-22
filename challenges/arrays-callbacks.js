@@ -95,9 +95,9 @@ function greeting(a, b){
 // console.log(consume(10, 16, multiply)); // 160
 // console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
-console.log(consume(2, 2, add));
-console.log(consume(10, 16, multiply));
-console.log(consume("Shanon", "Fritz", greeting));
+// console.log(consume(2, 2, add));
+// console.log(consume(10, 16, multiply));
+// console.log(consume("Shanon", "Fritz", greeting));
 
 /*
 
