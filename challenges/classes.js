@@ -32,14 +32,14 @@ class ConeMaker extends CuboidMakerOne{
         this.slant = attr.slant;
         this.radius = attr.radius;
         this.pie = attr.pie;
-        this.squared = this.radius * this.radius;
+        this.radiusSquared = Math.pow(this.radius, 2);
     };
     volume(){
-        const vol = (this.pie * this.squared * this.height) / 3;
+        const vol = (this.pie * this.radiusSquared * this.height) / 3;
         return vol.toFixed(2);
     };
     surfaceArea(){
-        const sur = (this.pie * this.radius * this.slant) + (this.pie * this.squared);
+        const sur = (this.pie * this.radius * this.slant) + (this.pie * this.radiusSquared);
         return sur.toFixed(2);
     };
 };
