@@ -24,6 +24,14 @@ const cuboidOne = new CuboidMakerOne({
 // console.log(cuboidOne.volume()); // 100
 // console.log(cuboidOne.surfaceArea()); // 130
 
+
+
+class CubeMaker extends CuboidMakerOne {
+    constructor(length) {
+        super(length, length, length)
+    }
+}
+
 // Stretch Task: Extend the base class CuboidMaker with a sub class called CubeMaker.  Find out the formulas for volume and surface area for cubes and create those methods using the dimension properties from CuboidMaker.  Test your work by logging out your volume and surface area.
 
 class ConeMaker extends CuboidMakerOne{
@@ -53,5 +61,5 @@ const coneOne = new ConeMaker({
     pie: 3.14
 });
 
-console.log(coneOne.volume());
-console.log(coneOne.surfaceArea());
+// console.log(coneOne.volume());
+// console.log(coneOne.surfaceArea());
