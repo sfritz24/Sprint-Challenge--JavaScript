@@ -14,7 +14,7 @@ function myFunction() {
   };
   nestedFunction();
 }
-myFunction();
+// myFunction();
 
 // Explanation: 
 
@@ -31,4 +31,4 @@ function sumation(x){
   console.log(add());
 };
 
-console.log(sumation(4));
+// console.log(sumation(4));
